@@ -40,7 +40,6 @@ h1 {
     margin: auto;
     margin-top: 50px;
     width: 70%;
-    height: 800px;
     background-color: white;
     border-radius: 10px;
 }
@@ -74,4 +73,58 @@ h1 {
     border-top: 1px solid #F6F8F9;
     width: 100%;
     margin-top: 15px;
+}
+
+/*lista*/
+.sub_container {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+.list_title {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.entity_check {
+    color: #96D6C8;
+}
+
+.entity_false {
+    color: #EB5A54;
+}
+
+.targa {
+    
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #47ADF1;
+}
+
+/*colori targhe*/
+.row {
+margin-bottom: 30px;
+}
+
+#viola {
+    background-color: #9C72E4;
+}
+
+#verde {
+    background-color: #64C0A9;
+}
+
+#arancio {
+    background-color: #F29E33;
+}
+
+#rosa {
+    background-color: #D863A1;
 }
