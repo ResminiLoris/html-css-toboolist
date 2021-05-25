@@ -1,12 +1,14 @@
-/*generics*/
+/*reset*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/*generics*/
 body {
     background-color: #F6F8F9;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*header*/
@@ -18,7 +20,7 @@ body {
 }
 
 #logo {
-    height: 80px;
+    height: 100%;
     vertical-align: middle;
 }
 
@@ -30,5 +32,46 @@ body {
 h1 {
     display: inline-block;
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+}
+
+/*corpo*/
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: 800px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*add task/section*/
+.tools {
+    margin-left: 50px;
+}
+
+.buttons {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#add_task {
+    margin-left: 20px;
+    background-color: #47ADF1;
+    color: white;
+}
+
+#add_section {
+    color: #C5CBD0;
+    border: solid;
+    border-width: 1px;
+    border-color: #C5CBD0;
+}
+
+#separatore {
+    border-top: 1px solid #F6F8F9;
+    width: 100%;
+    margin-top: 15px;
 }
